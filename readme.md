@@ -12,7 +12,7 @@ GNU/Linux 下查看调节 CPU 的策略、风扇转速的图形化工具。
 
 **开发环境**
 
-deepin 15.11 ，Qt 5.12.4
+deepin V20
 
 **安装方法**
 
@@ -36,10 +36,7 @@ deepin 15.11 ，Qt 5.12.4
 
 ![](img/screenshot.png)
 
-**录屏**
-
-![](img/screenshotgif.gif)
 
 **有 BUG 联系我**
 
-QQ：794780360
+QQ：2483457550
