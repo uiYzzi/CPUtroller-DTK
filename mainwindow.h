@@ -1,13 +1,13 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QMainWindow>
-
+#include <DMainWindow>
+DWIDGET_USE_NAMESPACE
 namespace Ui {
 class MainWindow;
 }
 
-class MainWindow : public QMainWindow
+class MainWindow : public DMainWindow
 {
     Q_OBJECT
     

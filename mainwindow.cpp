@@ -3,6 +3,7 @@
 #include "utils.h"
 #include <QDir>
 #include <QDebug>
+#include <DTitlebar>
 
 const QString speedMethod = "/pwm1_enable";
 const QString manualSpeed = "/pwm1";
@@ -25,11 +26,13 @@ QString findCPUDir() {
 }
 
 MainWindow::MainWindow(QWidget *parent) :
-    QMainWindow(parent),
+    DMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    setStyleSheet(Utils::readFile(":/static/default.qss"));
+    titlebar()->setTitle("");
+    titlebar()->setIcon(QIcon::fromTheme(":/icon/top.yzzi.cputroller.svg"));
+    setTitlebarShadowEnabled(true);
     cpuDir = findCPUDir();
     updateTimer = startTimer(500);
     cpuNumber = Utils::exec("cpufreq-info | grep 'analyzing CPU'").split("\n").size();
