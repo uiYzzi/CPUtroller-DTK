@@ -18,19 +18,6 @@ deepin V20
 
 首先需要安装依赖，在终端中运行`sudo apt install -y cpufrequtils`。
 
-然后提供了 3 种程序包，选择合适的一种。
-
-1. [Cputroller](https://github.com/chenghaopeng/Cputroller/releases/download/v1.0/Cputroller)
-
-   单可执行文件，需要系统中有 Qt 5.12.4 。**最轻量，但不推荐。**
-
-2. [Cputroller-x86_64.AppImage](https://github.com/chenghaopeng/Cputroller/releases/download/v1.0/Cputroller-x86_64.AppImage)
-
-   含运行库的可执行文件，能直接运行。
-
-3. [cn.chper.cputroller.deb](https://github.com/chenghaopeng/Cputroller/releases/download/v1.0/cn.chper.cputroller.deb)
-
-   含运行库的可执行文件、快捷方式等的安装包，安装完后可使用。**推荐**
 
 **截图**
 
