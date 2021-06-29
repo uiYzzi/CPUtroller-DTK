@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="top.yzzi.cputroller.svg"
+   id="svg50"
+   version="1.1"
+   viewBox="0 0 512 512"
+   height="512"
+   width="512">
+  <metadata
+     id="metadata54">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg50"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="173.24343"
+     inkscape:cx="208.30536"
+     inkscape:zoom="0.84472656"
+     showgrid="false"
+     id="namedview52"
+     inkscape:window-height="905"
+     inkscape:window-width="1557"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff">
+    <inkscape:grid
+       id="grid905"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <defs
+     id="defs38">
+    <filter
+       filterUnits="objectBoundingBox"
+       y="-12.2%"
+       x="-12.2%"
+       height="124.3%"
+       width="124.3%"
+       id="netease-cloud-music-a">
+      <feOffset
+         id="feOffset2"
+         result="shadowOffsetOuter1"
+         in="SourceAlpha"
+         dy="8" />
+      <feGaussianBlur
+         id="feGaussianBlur4"
+         stdDeviation="10"
+         result="shadowBlurOuter1"
+         in="shadowOffsetOuter1" />
+      <feComposite
+         id="feComposite6"
+         result="shadowBlurOuter1"
+         operator="out"
+         in2="SourceAlpha"
+         in="shadowBlurOuter1" />
+      <feColorMatrix
+         id="feColorMatrix8"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"
+         result="shadowMatrixOuter1"
+         in="shadowBlurOuter1" />
+      <feMerge
+         id="feMerge14">
+        <feMergeNode
+           id="feMergeNode10"
+           in="shadowMatrixOuter1" />
+        <feMergeNode
+           id="feMergeNode12"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <radialGradient
+       gradientTransform="translate(34,34)"
+       gradientUnits="userSpaceOnUse"
+       fy="0"
+       fx="222"
+       r="499.16258"
+       cy="0"
+       cx="222"
+       id="netease-cloud-music-b">
+      <stop
+         style="stop-color:#bac8e0;stop-opacity:1"
+         id="stop17"
+         stop-color="#FF7440"
+         offset="0%" />
+      <stop
+         style="stop-color:#6a85b6;stop-opacity:1"
+         id="stop19"
+         stop-color="#DD001B"
+         offset="100%" />
+    </radialGradient>
+    <path
+       d="M175.190087,111.043105 C131.324202,130.144668 104.746696,169.514987 96.968972,202.50083 C89.1912479,235.486673 94.1999801,259.98517 100.421947,278.54134 C105.081318,292.437281 112.060653,305.445146 120.922108,316.406104 C132.337197,330.525716 144.709261,340.460455 152.373132,345.879043 C165.225874,354.966319 189.177697,366.230778 218.046138,368.013064 C243.400483,369.578395 271.037107,364.537168 298.90167,346.844638 C333.140239,325.104949 347.802954,292.445254 350.77909,264.591715 C351.806233,254.978727 350.946793,236.885194 346.294822,221.6479 C346.294822,221.6479 346.294822,221.6479 346.294822,221.6479 C335.89666,187.589256 306.498832,162.78917 271.175295,158.276886 L265.349851,157.532731 L265.349851,157.532731 L257.044631,157.532731 C246.989018,157.532731 237.009524,159.276002 227.549432,162.685109 C222.21861,164.606162 217.410744,166.860557 213.125832,169.448293 C199.586921,177.624687 191.698763,188.259164 188.860159,192.205116 C174.423555,212.273485 174.083782,238.38553 184.848656,257.118425 C195.355046,275.401509 216.003731,287.469442 240.748624,280.814036 C272.310429,272.325147 280.005679,242.149326 270.411783,208.038087 C260.817888,173.926849 250.175687,134.583987 248.560484,127.672767 C248.370703,126.860723 248.077441,125.693963 247.680699,124.172487 C243.830341,109.406676 251.012476,93.9875936 264.793194,87.434254 C279.0485,80.6552265 296.065971,84.0779826 306.591823,95.8412911 L307.265276,96.5939182 L307.265276,96.5939182"
+       id="netease-cloud-music-d" />
+    <filter
+       filterUnits="objectBoundingBox"
+       y="-12.3%"
+       x="-20.2%"
+       height="132.9%"
+       width="140.3%"
+       id="netease-cloud-music-c">
+      <feMorphology
+         id="feMorphology23"
+         result="shadowSpreadOuter1"
+         radius="16.5"
+         operator="dilate"
+         in="SourceAlpha" />
+      <feOffset
+         id="feOffset25"
+         result="shadowOffsetOuter1"
+         in="shadowSpreadOuter1"
+         dy="8" />
+      <feMorphology
+         id="feMorphology27"
+         result="shadowInner"
+         radius="16.5"
+         in="SourceAlpha" />
+      <feOffset
+         id="feOffset29"
+         result="shadowInner"
+         in="shadowInner"
+         dy="8" />
+      <feComposite
+         id="feComposite31"
+         result="shadowOffsetOuter1"
+         operator="out"
+         in2="shadowInner"
+         in="shadowOffsetOuter1" />
+      <feGaussianBlur
+         id="feGaussianBlur33"
+         stdDeviation="10.5"
+         result="shadowBlurOuter1"
+         in="shadowOffsetOuter1" />
+      <feColorMatrix
+         id="feColorMatrix35"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"
+         in="shadowBlurOuter1" />
+    </filter>
+    <style
+       type="text/css"
+       id="style891" />
+    <filter
+       height="1.0990838"
+       y="-0.049541877"
+       width="1.0990838"
+       x="-0.049541877"
+       id="filter1909"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur1911"
+         stdDeviation="7.2661419"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
+  <rect
+     width="444"
+     height="444"
+     fill="url(#netease-cloud-music-b)"
+     rx="64"
+     id="rect40"
+     style="fill:url(#netease-cloud-music-b);fill-rule:evenodd;filter:url(#netease-cloud-music-a)"
+     x="34"
+     y="34" />
+  <path
+     id="path907"
+     fill="#ffffff"
+     p-id="4013"
+     d="m 392,344 v 8 a 40,40 0 0 1 -40,40 h -8 a 8,8 0 0 0 -8,8 v 24 a 8,8 0 0 1 -8,8 h -16 a 8,8 0 0 1 -8,-8 v -24 a 8,8 0 0 0 -8,-8 h -16 a 8,8 0 0 0 -8,8 v 24 a 8,8 0 0 1 -8,8 h -16 a 8,8 0 0 1 -8,-8 v -24 a 8,8 0 0 0 -8,-8 h -16 a 8,8 0 0 0 -8,8 v 24 a 8,8 0 0 1 -8,8 h -16 a 8,8 0 0 1 -8,-8 v -24 a 8,8 0 0 0 -8,-8 h -8 a 40,40 0 0 1 -40,-40 v -8 a 8,8 0 0 0 -8,-8 H 88.000001 a 8,8 0 0 1 -8,-8 v -16 a 8,8 0 0 1 8,-8 H 112 a 8,8 0 0 0 8,-8 v -16 a 8,8 0 0 0 -8,-8 H 88.000001 a 8,8 0 0 1 -8,-8 v -16 a 8,8 0 0 1 8,-8 H 112 a 8,8 0 0 0 8,-8 v -16 a 8,8 0 0 0 -8,-8 H 88.000001 a 8,8 0 0 1 -8,-8 v -16 a 8,8 0 0 1 8,-8 H 112 a 8,8 0 0 0 8,-8 v -8 a 40,40 0 0 1 40,-40 h 8 a 8,8 0 0 0 8,-8 V 87.999999 a 8,8 0 0 1 8,-8 h 16 a 8,8 0 0 1 8,8 V 112 a 8,8 0 0 0 8,8 h 16 a 8,8 0 0 0 8,-8 V 87.999999 a 8,8 0 0 1 8,-8 h 16 a 8,8 0 0 1 8,8 V 112 a 8,8 0 0 0 8,8 h 16 a 8,8 0 0 0 8,-8 V 87.999999 a 8,8 0 0 1 8,-8 h 16 a 8,8 0 0 1 8,8 V 112 a 8,8 0 0 0 8,8 h 8 a 40,40 0 0 1 40,40 v 8 a 8,8 0 0 0 8,8 h 24 a 8,8 0 0 1 8,8 v 16 a 8,8 0 0 1 -8,8 h -24 a 8,8 0 0 0 -8,8 v 16 a 8,8 0 0 0 8,8 h 24 a 8,8 0 0 1 8,8 v 16 a 8,8 0 0 1 -8,8 h -24 a 8,8 0 0 0 -8,8 v 16 a 8,8 0 0 0 8,8 h 24 a 8,8 0 0 1 8,8 v 16 a 8,8 0 0 1 -8,8 h -24 a 8,8 0 0 0 -8,8 z M 208,192 a 16,16 0 0 0 -16,16 v 96 a 16,16 0 0 0 16,16 h 96 a 16,16 0 0 0 16,-16 v -96 a 16,16 0 0 0 -16,-16 z"
+     style="stroke-width:0.390625;fill:#ffffff;fill-opacity:1;opacity:0.50048959;filter:url(#filter1909)" />
+  <path
+     style="stroke-width:0.390625"
+     d="m 392,344 v 8 a 40,40 0 0 1 -40,40 h -8 a 8,8 0 0 0 -8,8 v 24 a 8,8 0 0 1 -8,8 h -16 a 8,8 0 0 1 -8,-8 v -24 a 8,8 0 0 0 -8,-8 h -16 a 8,8 0 0 0 -8,8 v 24 a 8,8 0 0 1 -8,8 h -16 a 8,8 0 0 1 -8,-8 v -24 a 8,8 0 0 0 -8,-8 h -16 a 8,8 0 0 0 -8,8 v 24 a 8,8 0 0 1 -8,8 h -16 a 8,8 0 0 1 -8,-8 v -24 a 8,8 0 0 0 -8,-8 h -8 a 40,40 0 0 1 -40,-40 v -8 a 8,8 0 0 0 -8,-8 H 88.000001 a 8,8 0 0 1 -8,-8 v -16 a 8,8 0 0 1 8,-8 H 112 a 8,8 0 0 0 8,-8 v -16 a 8,8 0 0 0 -8,-8 H 88.000001 a 8,8 0 0 1 -8,-8 v -16 a 8,8 0 0 1 8,-8 H 112 a 8,8 0 0 0 8,-8 v -16 a 8,8 0 0 0 -8,-8 H 88.000001 a 8,8 0 0 1 -8,-8 v -16 a 8,8 0 0 1 8,-8 H 112 a 8,8 0 0 0 8,-8 v -8 a 40,40 0 0 1 40,-40 h 8 a 8,8 0 0 0 8,-8 V 87.999999 a 8,8 0 0 1 8,-8 h 16 a 8,8 0 0 1 8,8 V 112 a 8,8 0 0 0 8,8 h 16 a 8,8 0 0 0 8,-8 V 87.999999 a 8,8 0 0 1 8,-8 h 16 a 8,8 0 0 1 8,8 V 112 a 8,8 0 0 0 8,8 h 16 a 8,8 0 0 0 8,-8 V 87.999999 a 8,8 0 0 1 8,-8 h 16 a 8,8 0 0 1 8,8 V 112 a 8,8 0 0 0 8,8 h 8 a 40,40 0 0 1 40,40 v 8 a 8,8 0 0 0 8,8 h 24 a 8,8 0 0 1 8,8 v 16 a 8,8 0 0 1 -8,8 h -24 a 8,8 0 0 0 -8,8 v 16 a 8,8 0 0 0 8,8 h 24 a 8,8 0 0 1 8,8 v 16 a 8,8 0 0 1 -8,8 h -24 a 8,8 0 0 0 -8,8 v 16 a 8,8 0 0 0 8,8 h 24 a 8,8 0 0 1 8,8 v 16 a 8,8 0 0 1 -8,8 h -24 a 8,8 0 0 0 -8,8 z M 208,192 a 16,16 0 0 0 -16,16 v 96 a 16,16 0 0 0 16,16 h 96 a 16,16 0 0 0 16,-16 v -96 a 16,16 0 0 0 -16,-16 z"
+     p-id="4013"
+     fill="#ffffff"
+     id="path895" />
+</svg>

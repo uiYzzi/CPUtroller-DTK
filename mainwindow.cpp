@@ -57,20 +57,20 @@ void MainWindow::changeStrategy(QString strategy) {
 }
 
 void MainWindow::update() {
-    ui->lblCpuFrequency->setText(Utils::exec("cat /proc/cpuinfo | grep -i mhz | awk 'BEGIN {sum=0; max=0; min=99999;} {if ($4 > max) max = $4; fi; if ($4 < min) min = $4; fi; sum += $4} END {printf(\"平均 %d 最大 %d 最小 %d\", int(sum / NR), max, min)}'"));
+    ui->lblCpuFrequency->setText(Utils::exec("cat /proc/cpuinfo | grep -i mhz | awk 'BEGIN {sum=0; max=0; min=99999;} {if ($4 > max) max = $4; fi; if ($4 < min) min = $4; fi; sum += $4} END {printf(\"Avg %d MAX %d MIN %d\", int(sum / NR), max, min)}'"));
     QString cm = Utils::exec("cpufreq-info -p | awk '{print($3)}'"), cmz;
-    if (cm == ONDEMAND) cmz = "按需";
-    else if (cm == PERFORMANCE) cmz = "性能";
-    else if (cm == POWERSAVE) cmz = "节能";
-    else cmz = "其他";
+    if (cm == ONDEMAND) cmz = "On Demand";
+    else if (cm == PERFORMANCE) cmz = "Performance";
+    else if (cm == POWERSAVE) cmz = "Power Save";
+    else cmz = "Other";
     ui->lblCpuStrategy->setText(cmz);
     if (!cpuDir.isEmpty()) {
         ui->lblCpuTemperature->setText(Utils::exec("cat " + cpuDir + "/" + temperature + " | cut -c-2") + "℃");
         if (Utils::exec("cat " + cpuDir + "/" + speedMethod) == "1") {
-            ui->lblFanSpeed->setText("手动 " + Utils::exec("cat " + cpuDir + "/" + manualSpeed) + "/255");
+            ui->lblFanSpeed->setText("Manual " + Utils::exec("cat " + cpuDir + "/" + manualSpeed) + "/255");
         }
         else {
-            ui->lblFanSpeed->setText("自动 " + Utils::exec("cat " + cpuDir + "/" + currentSpeed));
+            ui->lblFanSpeed->setText("Auto " + Utils::exec("cat " + cpuDir + "/" + currentSpeed));
         }
     }
 }

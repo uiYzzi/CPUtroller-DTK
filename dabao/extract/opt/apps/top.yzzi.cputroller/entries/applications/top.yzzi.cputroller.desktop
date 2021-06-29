@@ -1,0 +1,16 @@
+[Desktop Entry]
+Categories=System;
+Comment=CPU-T
+Comment[zh_CN]=CPU-T
+Comment[zh_TW]=CPU-T
+Exec=/opt/apps/top.yzzi.cputroller/files/CPUtrollerDTK
+Icon=top.yzzi.cputroller
+Name=CPU-T
+Name[zh_CN]=CPU-T
+Name[zh_TW]=CPU-T
+StartupNotify=true
+StartupWMClass=CPUtrollerDTK
+Terminal=false
+Type=Application
+Version=1.0.3
+X-Deepin-Vendor=user-custom
