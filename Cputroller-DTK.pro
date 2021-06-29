@@ -47,4 +47,5 @@ RESOURCES += \
 
 DISTFILES +=
 TRANSLATIONS = \
-    language.zh_CN.ts
+    translations/language.zh_CN.ts \
+    translations/language.es.ts

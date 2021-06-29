@@ -38,11 +38,11 @@
       <x>10</x>
       <y>250</y>
       <width>339</width>
-      <height>221</height>
+      <height>211</height>
      </rect>
     </property>
     <property name="title">
-     <string>风扇</string>
+     <string>Fans</string>
     </property>
     <widget class="QLabel" name="label_9">
      <property name="geometry">
@@ -57,7 +57,7 @@
       <string>itemname</string>
      </property>
      <property name="text">
-      <string>转速：</string>
+      <string>RPM:</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -73,7 +73,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>暂无数据</string>
+      <string>No data</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -92,7 +92,7 @@
       <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="text">
-      <string>设为自动</string>
+      <string>Set to Auto</string>
      </property>
     </widget>
     <widget class="QSlider" name="sdrFanSpeed">
@@ -133,7 +133,7 @@
       <string>itemname</string>
      </property>
      <property name="text">
-      <string>手动调节</string>
+      <string>Manual</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -188,7 +188,7 @@
       <string>itemname</string>
      </property>
      <property name="text">
-      <string>温度：</string>
+      <string>Temp:</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -207,7 +207,7 @@
       <string>itemname</string>
      </property>
      <property name="text">
-      <string>频率：</string>
+      <string>Freq:</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -223,7 +223,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>暂无数据</string>
+      <string>No data</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -239,7 +239,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>暂无数据</string>
+      <string>No data</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -255,7 +255,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>暂无数据</string>
+      <string>No data</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -274,7 +274,7 @@
       <string>itemname</string>
      </property>
      <property name="text">
-      <string>策略：</string>
+      <string>Mode:</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -283,9 +283,9 @@
     <widget class="QPushButton" name="btnStrategyPerformance">
      <property name="geometry">
       <rect>
-       <x>50</x>
+       <x>10</x>
        <y>190</y>
-       <width>81</width>
+       <width>101</width>
        <height>32</height>
       </rect>
      </property>
@@ -293,15 +293,15 @@
       <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="text">
-      <string>性能</string>
+      <string>Performance</string>
      </property>
     </widget>
     <widget class="QPushButton" name="btnStrategyOndemand">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>120</x>
        <y>190</y>
-       <width>81</width>
+       <width>101</width>
        <height>32</height>
       </rect>
      </property>
@@ -309,7 +309,7 @@
       <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="text">
-      <string>按需</string>
+      <string>On Demand</string>
      </property>
     </widget>
     <widget class="QPushButton" name="btnStrategyPowersave">
@@ -317,7 +317,7 @@
       <rect>
        <x>230</x>
        <y>190</y>
-       <width>81</width>
+       <width>101</width>
        <height>32</height>
       </rect>
      </property>
@@ -325,7 +325,7 @@
       <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="text">
-      <string>节能</string>
+      <string>Power save</string>
      </property>
     </widget>
    </widget>
